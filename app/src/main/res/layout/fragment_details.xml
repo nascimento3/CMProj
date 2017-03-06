@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.cm.cmproj.DetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_details_textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_details_canteen"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/fragment_details_typemeal" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_details_typemeal"
+        android:layout_below="@+id/fragment_details_textView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_details_text_sopa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_below="@+id/fragment_details_canteen"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_details_sopa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_toRightOf="@+id/fragment_details_text_sopa"
+        android:layout_below="@+id/fragment_details_canteen"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_details_text_peixe"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_below="@+id/fragment_details_sopa"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_details_text_carne"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_below="@+id/fragment_details_peixe"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_details_carne"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_toRightOf="@+id/fragment_details_text_carne"
+        android:layout_below="@+id/fragment_details_peixe"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_details_peixe"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginLeft="4dp"
+        android:layout_alignTop="@+id/fragment_details_text_peixe"
+        android:layout_toEndOf="@+id/fragment_details_text_carne"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
